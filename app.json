@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "DoneWithIt",
+    "slug": "DoneWithIt",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/hamburger.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icons/hamburger.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "width": "80%",
+      "height": "30%"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/user.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.foodDelivery",
+      "config":{
+        "googleMaps":{
+          "apiKey":"AIzaSyBI7CbDYR4lFF9LwsdvCzIoHovg4AZZOYY"
+        }
+      }
+      
+    },
+    "web": {
+      "favicon": "./assets/icons/user.png"
+    }
+  }
+}
